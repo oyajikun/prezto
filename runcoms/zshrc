@@ -12,3 +12,7 @@ fi
 
 # Customize to your needs...
 export PATH=$PATH:/usr/sbin
+
+# anyenv
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
