@@ -16,3 +16,6 @@ export PATH=$PATH:/usr/sbin
 # anyenv
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
+
+# JAVA
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
