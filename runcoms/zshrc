@@ -24,4 +24,5 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 alias vi=vim
 
 # less
+alias less='less -X'
 export LESS=--ignore-case
